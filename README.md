@@ -7,6 +7,7 @@ I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.
 | Model  | Params | Epochs | Time  | Input Size  | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75 |
 |:-------|--------|:-------|-------|:------------|:----------|:--------|:--------|:---------|
 | YOLOv1 | 21.29M | 150    | 3.11h | multi-scale | 640x640   | 76.02%  | 70.10%  | 50.27%   |
+| YOLOv2 | 30.90M | 150    | 3.59h | multi-scale | 640x640   | 79.09%  | 74.13%  | 54.80%   |
 
 ## Requirements
 
@@ -72,6 +73,15 @@ own images!
   <em><strong>YOLOv1 Results</strong></em>
 </p>
 <br>
+<p align="center">
+  <img src="./yolov2/images/senna.png" height="200" />
+  <img src="./yolov2/images/cat.png" height="200" />
+  <br>
+  <img src="./yolov2/images/swan.png" height="200" />
+  <img src="./yolov2/images/ski.png" height="200" />
+  <br>
+  <em><strong>YOLOv2 Results</strong></em>
+</p>
 
 ## Acknowledgement
 
