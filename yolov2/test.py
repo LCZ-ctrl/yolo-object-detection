@@ -105,7 +105,7 @@ def visualize_results(img, bboxes, scores, labels, vis_thresh, class_colors, cla
 
 
 @torch.no_grad()
-def run_inference(image_path, model, device, class_names, class_colors, conf_thresh=0.25):
+def run_inference(image_path, model, device, class_names, class_colors, conf_thresh=0.3):
     """
     Inference: load -> preprocess -> model inference -> postprocess -> visualize
     """
