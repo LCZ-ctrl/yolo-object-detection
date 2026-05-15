@@ -49,7 +49,7 @@ For each bounding box, YOLO still learns the center point offsets, $t_x$ and $t_
 information from anchor boxes, the network no longer needs to learn the
 full width and height of the target. Assuming an anchor box has a width $p_w$ and height $p_h$, and the network outputs
 the width and height offsets as $t_w$ and $t_h$, YOLOv2 uses the
-following formulas to compute the final center coordinates ($c_x$, $c_y$) and wh $b_w$, $b_h$:
+following formulas to compute the final center coordinates ($b_x$, $b_y$) and wh $b_w$, $b_h$:
 
 $$b_x = grid_x + \sigma(t_x)$$
 
