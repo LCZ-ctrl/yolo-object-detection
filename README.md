@@ -8,6 +8,7 @@ I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.
 |:-------|--------|:-------|-------|:------------|:----------|:--------|:--------|:---------|
 | YOLOv1 | 21.29M | 150    | 3.11h | multi-scale | 640x640   | 76.02%  | 70.10%  | 50.27%   |
 | YOLOv2 | 30.90M | 150    | 3.59h | multi-scale | 640x640   | 79.09%  | 74.13%  | 54.80%   |
+| YOLOv3 | 54.96M | 150    | 7.24h | multi-scale | 640x640   | 81.97%  | 77.98%  | 60.26%   |
 
 ## Requirements
 
@@ -81,6 +82,16 @@ own images!
   <img src="./yolov2/images/ski.png" height="200" />
   <br>
   <em><strong>YOLOv2 Results</strong></em>
+</p>
+<br>
+<p align="center">
+  <img src="./yolov3/images/sheep.png" height="200" />
+  <img src="./yolov3/images/train.png" height="200" />
+  <br>
+  <img src="./yolov3/images/dog.png" height="200" />
+  <img src="./yolov3/images/kamila.png" height="200" />
+  <br>
+  <em><strong>YOLOv3 Results</strong></em>
 </p>
 
 ## Acknowledgement
